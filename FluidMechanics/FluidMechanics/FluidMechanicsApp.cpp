@@ -244,19 +244,19 @@ void FluidMechanicsApp::GenerateRandomPattern()
 	cout << "BackGround B  " << Parameters::BackGroundColorB <<endl;
 	cout << "BackGround A  " << Parameters::BackGroundColorA <<endl;
 
-	Parameters::PrimaryColorR = random_range(-1, 1);
-	Parameters::PrimaryColorG = random_range(-1, 1);
-	Parameters::PrimaryColorB = random_range(-1, 1);
-	Parameters::PrimaryColorA = random_range(-1, 1);
+	Parameters::PrimaryColorR = random_range(0, 1);
+	Parameters::PrimaryColorG = random_range(0, 1);
+	Parameters::PrimaryColorB = random_range(0, 1);
+	Parameters::PrimaryColorA = random_range(0, 1);
 	cout << "Primary R  " << Parameters::PrimaryColorR << endl;
 	cout << "Primary G  " << Parameters::PrimaryColorG << endl;
 	cout << "Primary B  " << Parameters::PrimaryColorB << endl;
 	cout << "Primary A  " << Parameters::PrimaryColorA << endl;
 
-	Parameters::SecondaryColorR = random_range(-1, 1);
-	Parameters::SecondaryColorG = random_range(-1, 1);
-	Parameters::SecondaryColorB = random_range(-1, 1);
-	Parameters::SecondaryColorA = random_range(-1, 1);
+	Parameters::SecondaryColorR = random_range(0, 1);
+	Parameters::SecondaryColorG = random_range(0, 1);
+	Parameters::SecondaryColorB = random_range(0, 1);
+	Parameters::SecondaryColorA = random_range(0, 1);
 	cout << "Secondary R  " << Parameters::SecondaryColorR << endl;
 	cout << "Secondary G  " << Parameters::SecondaryColorG << endl;
 	cout << "Secondary B  " << Parameters::SecondaryColorB << endl;
