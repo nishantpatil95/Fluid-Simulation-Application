@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7A40B9BA-6629-4D3B-B8CB-49ECBDFC0798}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FluidMechanics</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Application;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\ExternalLib\OpenGL\include;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Events;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Layers;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Windows;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\Glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Windows;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Layers;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Events;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\Glad\include;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\ExternalLib\OpenGL\include;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Glad;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\ExternalLib\ImGui;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Framework\Application;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\x64\Debug;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\Glad\x64\Debug;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\Debug;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\x64;D:\GitHub Projects\Visual Studio Projects\FluidMechanics\FluidMechanics\ExternalLib\OpenGL\lib-vc2015;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="ExternalLib\ImGui\imconfig.h" />
+    <ClInclude Include="ExternalLib\ImGui\imgui.h" />
+    <ClInclude Include="ExternalLib\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="ExternalLib\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="ExternalLib\ImGui\imgui_internal.h" />
+    <ClInclude Include="ExternalLib\ImGui\stb_rect_pack.h" />
+    <ClInclude Include="ExternalLib\ImGui\stb_textedit.h" />
+    <ClInclude Include="ExternalLib\ImGui\stb_truetype.h" />
+    <ClInclude Include="Fluid2D.h" />
+    <ClInclude Include="FluidMechanicsApp.h" />
+    <ClInclude Include="Framework\Layers\ImGuiLayer.h" />
+    <ClInclude Include="Glad\glad.h" />
+    <ClInclude Include="Framework\Events\ApplicationEvent.h" />
+    <ClInclude Include="Framework\Events\KeyEvent.h" />
+    <ClInclude Include="Glad\khrplatform.h" />
+    <ClInclude Include="linmath.h" />
+    <ClInclude Include="PixelGrid.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Framework\Layers\Layer.h" />
+    <ClInclude Include="Framework\Layers\LayerStack.h" />
+    <ClInclude Include="Framework\Events\MouseEvent.h" />
+    <ClInclude Include="Framework\Layers\Window.h" />
+    <ClInclude Include="Framework\Layers\WindowInput.h" />
+    <ClInclude Include="Framework\Application\Application.h" />
+    <ClInclude Include="Framework\Windows\Input.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="ExternalLib\ImGui\imgui.cpp" />
+    <ClCompile Include="ExternalLib\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="ExternalLib\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ExternalLib\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="ExternalLib\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Fluid2D.cpp" />
+    <ClCompile Include="FluidMechanics.cpp" />
+    <ClCompile Include="Framework\Application\Application.cpp" />
+    <ClCompile Include="Framework\Events\Event.cpp" />
+    <ClCompile Include="FluidMechanicsApp.cpp" />
+    <ClCompile Include="Framework\Layers\ImGuiLayer.cpp" />
+    <ClCompile Include="Glad\glad.cpp" />
+    <ClCompile Include="Framework\Layers\Layer.cpp" />
+    <ClCompile Include="Framework\Layers\LayerStack.cpp" />
+    <ClCompile Include="Framework\Windows\Window.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

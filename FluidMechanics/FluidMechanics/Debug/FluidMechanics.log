@@ -1,0 +1,34 @@
+﻿  pch.cpp
+  Common.cpp
+d:\github projects\visual studio projects\fluidmechanics\fluidmechanics\common.cpp(26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluidmechanics\fluidmechanics\common.cpp(28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FluidMechanics.cpp
+  Application.cpp
+  Event.cpp
+  Layer.cpp
+  LayerStack.cpp
+  Window.cpp
+  Generating Code...
+Window.obj : error LNK2019: unresolved external symbol _gladLoadGLLoader referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function "private: virtual void __thiscall WindowsWindow::Shutdown(void)" (?Shutdown@WindowsWindow@@EAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetWindowUserPointer referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetWindowUserPointer referenced in function "public: void __thiscall <lambda_095e6003ec398b5f757c32fb0d1f97c1>::operator()(struct GLFWwindow *)const " (??R<lambda_095e6003ec398b5f757c32fb0d1f97c1>@@QBEXPAUGLFWwindow@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetWindowSizeCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetWindowCloseCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "public: virtual void __thiscall WindowsWindow::OnUpdate(void)" (?OnUpdate@WindowsWindow@@UAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "public: virtual bool __thiscall WindowInput::KeyPressed(int)" (?KeyPressed@WindowInput@@UAE_NH@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetMouseButton referenced in function "public: virtual bool __thiscall WindowInput::MouseButtonPressed(int)" (?MouseButtonPressed@WindowInput@@UAE_NH@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetCursorPos referenced in function "public: virtual void __thiscall WindowInput::GetMousePosition(double &,double &)" (?GetMousePosition@WindowInput@@UAEXAAN0@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetCharCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: virtual void __thiscall WindowsWindow::OnUpdate(void)" (?OnUpdate@WindowsWindow@@UAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: virtual void __thiscall WindowsWindow::SetVSync(bool)" (?SetVSync@WindowsWindow@@UAEX_N@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function "private: virtual void __thiscall WindowsWindow::Init(struct WindowProps const &)" (?Init@WindowsWindow@@EAEXABUWindowProps@@@Z)
+D:\GitHub Projects\Visual Studio Projects\FluidMechanics\Debug\FluidMechanics.exe : fatal error LNK1120: 22 unresolved externals

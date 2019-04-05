@@ -1,0 +1,77 @@
+﻿  pch.cpp
+  Common.cpp
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\common.cpp(49): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\common.cpp(54): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\common.cpp(71): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\common.cpp(73): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  Fluid2D.cpp
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(99): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(158): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(159): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(189): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(189): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(190): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(190): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(191): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(191): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(192): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(192): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(215): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(216): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(245): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(245): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(246): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(246): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(247): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(247): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(248): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluid2d.cpp(248): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  FluidMechanics.cpp
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(190): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(190): note: consider using '%zd' in the format string
+  Application.cpp
+  Event.cpp
+  FluidMechanicsApp.cpp
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(190): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\pixelgrid.h(190): note: consider using '%zd' in the format string
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(169): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(277): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(277): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(278): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\github projects\visual studio projects\fluid-simulation-application\fluidmechanics\fluidmechanics\fluidmechanicsapp.cpp(278): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  ImGuiLayer.cpp
+  glad.cpp
+  Layer.cpp
+  LayerStack.cpp
+  Window.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  FluidMechanics.vcxproj -> D:\GitHub Projects\Visual Studio Projects\Fluid-Simulation-Application\FluidMechanics\x64\Debug\FluidMechanics.exe
